@@ -2,7 +2,7 @@ import psycopg2
 import pandas as pd
 
 conn = psycopg2.connect(
-    host='localhost',
+    host='host.docker.internal',
     database='stock_analytics',
     user='mohan',
     password='mohan123'
