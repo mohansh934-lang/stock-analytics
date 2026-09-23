@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+svenv/
+
+# Data files (large, auto-generated)
+data/bronze/
+data/silver/
+data/gold/
+data/gold_monthly/
+data/raw_data/*.csv
+
+# dbt
+dbt_stocks/target/
+dbt_stocks/logs/
+dbt.log
+
+# Airflow
+airflow/logs/
+airflow/__pycache__/
+airflow/dags/__pycache__/
